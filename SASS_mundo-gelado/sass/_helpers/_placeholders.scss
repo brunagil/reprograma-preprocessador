@@ -1,0 +1,13 @@
+// %height-display {
+//     height: auto;
+//     display: auto;
+// }
+
+%flexbox {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+//chama por: @extend %height-display

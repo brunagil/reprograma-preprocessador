@@ -11,7 +11,8 @@
         "../sass/_layout/_banner.scss",
         "../sass/_layout/_about.scss",
         "../sass/_layout/_destination.scss",
-        "../sass/_layout/_footer.scss"
+        "../sass/_layout/_footer.scss",
+        "../sass/_helpers/_placeholders.scss"
     ],
     "names": [],
     "file": "style.css"

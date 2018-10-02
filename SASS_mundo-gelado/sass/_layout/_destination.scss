@@ -11,9 +11,8 @@
       margin-left: 30px;
     }
     &--siberia {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend %flexbox;
+
       &__img {
         max-width: 740px;
         width: 100%;
@@ -22,10 +21,9 @@
     }
     &--groenlandia,
     &--antartida {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend %flexbox;
       height: 300px;
+
       &__img {
         max-height: 300px;
         width: 100%;
