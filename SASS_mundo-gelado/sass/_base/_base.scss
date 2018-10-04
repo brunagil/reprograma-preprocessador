@@ -10,7 +10,7 @@
   
   body {
     font-family: Nunito;
-    font-size: 16px;
+    font-size: $font-size;
   }
   
   ul, li {
@@ -36,5 +36,33 @@
   }
   
   .transition {
-    transition: all 1s;
-  }  
+    transition: all 9s;
+  }
+  
+  // $i: 1; 
+  // $cols: 8;
+
+  // @while $i <= $cols{
+  //   $width: percentage($i/$cols);
+  //   .col-#{$i}{
+  //     width: $width;
+  //   }
+  //   $i: $i + 1;
+  // }
+
+
+ 
+   @each $nome-da-cor, $cor in $cores{
+    .#{$nome-da-cor}{
+      color: $cor;
+    }
+  }
+  
+  @each $fontes, $todas-as-fontes in $fontes{
+    .#{$fontes}{
+      font-family: $todas-as-fontes;
+    }
+  }
+  
+  
+  

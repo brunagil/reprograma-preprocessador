@@ -1,0 +1,4 @@
+@function adapta-tamanho($tam) {
+    @return $tam * $font-size; 
+}
+

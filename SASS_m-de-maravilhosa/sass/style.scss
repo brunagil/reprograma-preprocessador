@@ -1,13 +1,15 @@
-@import '_helpers/_variaveis';
-@import '_helpers/_mixins';
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
+
+@import 'components/btn';
+@import 'base/base';
+
+@import 'layout/nav';
+@import 'layout/header';
+@import 'layout/maravilhosas';
+@import 'pages/personalidades';
+@import 'layout/footer';
 
 
-@import '_components/_btn';
-@import '_base/_base';
 
-@import '_layout/_nav';
-@import '_layout/_header';
-@import '_layout/_about';
 
-@import '_pages/_perfil-maravilhosas';
-@import '_layout/_footer';

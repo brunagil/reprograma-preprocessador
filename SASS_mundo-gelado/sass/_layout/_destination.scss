@@ -12,22 +12,20 @@
     }
     &--siberia {
       @extend %flexbox;
-
       &__img {
         max-width: 740px;
         width: 100%;
-        @include height_display;
+        @extend %height_display;
       }
     }
     &--groenlandia,
     &--antartida {
       @extend %flexbox;
       height: 300px;
-
       &__img {
         max-height: 300px;
         width: 100%;
-        @include height_display;
+        @extend %height_display;
       }
       &__wrapper-img {
         width: 50%;

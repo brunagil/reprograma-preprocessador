@@ -1,0 +1,259 @@
+
+/* ---------ARTICLE ABOUT----------*/
+.about {
+    padding: 20px 50px;
+ }
+ 
+ @media (min-width: 740px) {
+     .about {
+         padding: 20px 100px;
+     }
+ }
+ 
+ @media (min-width: 1024px) {
+     .about {
+         padding: 60px 100px;
+     }
+ }
+ 
+ .about__paragraph {
+     color: gray;
+ }
+ 
+ @media (min-width: 740px) {
+     .about__paragraph {
+         text-align: center;
+     }
+ }
+ 
+ .article__title {
+     text-align: center;
+     font-family: 'Sawarabi Mincho', Arial;
+     font-weight: 400;
+ }
+ 
+ /* ------------ARTICLE DEF---------- */
+ .about__def {
+     display: flex;
+     flex-flow: column nowrap;
+     align-items: center;
+ }
+ 
+ @media (min-width: 1024px) {
+     .about__def {
+         flex-flow: row wrap;
+         justify-content: center;
+     }
+ }
+ 
+ .def__title {
+     margin-bottom: 0px;
+ }
+ 
+ @media (min-width: 1024px) {
+     .about__main-text {
+         margin-left: 25px;
+         width: 40%;
+         text-align: left;
+     }
+ 
+     .def__title {
+         text-align: left;
+     }
+ 
+     .def__paragraph {
+         text-align: left;
+     }
+ }
+ 
+ /* -------ARTICLE HOW WORKS------ */
+ @media (min-width: 1024px) {
+     .about__how-works {
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: center;
+         align-items: center;
+     }
+ }
+ 
+ .how-works__title {
+     margin-top: 0px;
+ }
+ 
+ @media (min-width: 1024px) {
+     .how-works__title {
+         margin-top: 20px;
+         width: 100%;
+     }
+ }
+ 
+ .how-works__div {
+     display: flex;
+     flex-flow: column nowrap;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ @media (min-width: 1024px) {
+     .how-works__div {
+         width: 25%;
+     }
+ }
+ 
+ .how-works__div_arrow {
+     display: none;
+     width: 5%;
+ } 
+ 
+ @media (min-width: 1024px) {
+     .how-works__div_arrow {
+         display: inline-block;
+     }
+ }
+ 
+ .bold-p {
+     display: block;
+     font-size: 1.2rem;
+     font-weight: bolder;
+ }
+ 
+ /* -------OUR SERVICES------- */
+ .our-services {
+     background: url(../img/bg-servicos.png);
+     padding: 20px;
+     display: flex;
+     flex-flow: column wrap;
+ }
+ 
+ @media (min-width: 1024px) {
+     .our-services {
+         flex-flow: row wrap;
+         justify-content: center;
+     }
+ 
+     .our-services__title {
+         width: 100%;
+     }
+ }
+ 
+ .our-services__consultoria, .our-services__roteiro {
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+ 
+     margin: 10px 30px;
+     background-color: #34C0D5;
+     color: $cor-branca;
+     border-radius: 10px;
+     box-shadow: 0px 0px 7px rgba(0, 0, 0, .7);
+ }
+ 
+ @media (min-width: 520px) {
+     .our-services__consultoria, .our-services__roteiro {
+         margin: 10px 50px;  
+     }
+ }
+ 
+ @media (min-width: 740px) {
+     .our-services__consultoria, .our-services__roteiro {
+         margin: 10px 100px;  
+     }
+ }
+ 
+ @media (min-width: 1024px) {
+     .our-services__consultoria, .our-services__roteiro {
+         margin: 10px 30px;
+         width: 30%;  
+         justify-content: center;
+         padding: 20px 0px;
+     }
+ }
+ 
+ .our-services__paragraph {
+     margin: 15px;
+ }
+ 
+ @media (min-width: 520px) {
+     .our-services__paragraph {
+         margin: 15px 35px;
+     }
+ }
+ 
+ .our-services__btn {
+     margin: 10px 0;
+ }
+ 
+ @media (min-width: 520px) {
+     .our-services__btn {
+         width: 200px;
+     }
+ }
+ 
+ /* ----------OUR DATA---------- */
+ .our-data {
+     background: url(../img/bg-numeros.png) no-repeat;
+     background-size: cover;
+     background-position: center;
+ 
+     padding: 0 50px;
+ 
+     display: flex;
+     flex-flow: column nowrap;
+     align-items: center;    
+     text-align: center;
+ }
+ 
+ @media (min-width: 1024px) {
+     .our-data {
+         flex-flow: row wrap;
+         justify-content: center;
+         padding: 20px 50px;
+     }
+ }
+ 
+ .our-data__title {
+     color: $cor-branca;
+ }
+ 
+ @media (min-width: 1024px) {
+     .our-data__title {
+         width: 100%;
+         margin-bottom: 0px;
+     }
+ }
+ 
+ .our-data__div {
+     margin: 10px 0;
+     width: 100%;
+ }
+ 
+ @media (min-width: 1024px) {
+     .our-data__div {
+         margin: 10px 25px;
+         width: 20%;
+     }
+ }
+ 
+ .our-data__paragraph {
+     color: white;
+ }
+ 
+ @media (min-width: 520px) {
+     .our-data__paragraph {
+         padding: 0 10px;
+     }
+ }
+ 
+ .highlight-p {
+     display: block;
+     color: $cor-amarelo-principal;
+     font-weight: bolder;
+     font-size: 1.8rem;
+ }
+ 
+ @media (min-width: 1024px) {
+     .highlight-p {
+         font-size: 3rem;
+     }
+ }
+ 

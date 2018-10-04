@@ -1,3 +1,20 @@
+.banner, .destination, .destination--siberia__img, .destination--groenlandia__img, .destination--antartida__img {
+  height: auto;
+  display: block;
+}
+
+.destination--siberia, .destination--groenlandia, .destination--antartida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +28,7 @@ html {
 
 body {
   font-family: Nunito;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 ul, li {
@@ -40,8 +57,32 @@ a:hover {
 }
 
 .transition {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 9s;
+  transition: all 9s;
+}
+
+.primaria {
+  color: #829dad;
+}
+
+.auxiliar {
+  color: #000;
+}
+
+.branco {
+  color: #FFF;
+}
+
+.principal {
+  font-family: "Nunito";
+}
+
+.secundal {
+  font-family: "Arial";
+}
+
+.terceral {
+  font-family: "Montserrat";
 }
 
 .btn {
@@ -81,12 +122,12 @@ a:hover {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 85px;
+  height: 50px;
 }
 
 .nav__link {
   color: #fff;
-  margin-right: 50px;
+  margin-right: 500px;
 }
 
 .nav__link:hover {
@@ -130,7 +171,7 @@ a:hover {
   letter-spacing: 8px;
 }
 
-@media (max-width: 850px) {
+@media screen and (max-width: 980px) {
   .banner__title {
     font-size: 60px;
   }
@@ -193,43 +234,18 @@ a:hover {
   margin-left: 30px;
 }
 
-.destination--siberia {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .destination--siberia__img {
   max-width: 740px;
   width: 100%;
-  height: auto;
-  display: block;
 }
 
 .destination--groenlandia, .destination--antartida {
-  display: -webkit-box;
-  display: -ms-flexbox;
-          display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 300px;
 }
 
 .destination--groenlandia__img, .destination--antartida__img {
   max-height: 300px;
   width: 100%;
-  height: auto;
-  display: block;
 }
 
 .destination--groenlandia__wrapper-img, .destination--antartida__wrapper-img {

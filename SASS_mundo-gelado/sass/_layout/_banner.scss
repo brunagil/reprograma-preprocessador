@@ -1,4 +1,9 @@
-
+.banner{
+    @extend %height_display;
+}
+.destination{
+    @extend %height_display;
+} 
 .banner {
     background: url("../images/foto-banner.jpg");
     background-size: cover;
@@ -16,9 +21,14 @@
       font-weight: 100;
       padding-top: 80px;
       letter-spacing: 8px;
-      @media (max-width: 850px) { 
-          font-size: 60px;
-      }
+    //chamar media query via if/else 
+       @include responsivo(tablet) {
+           font-size: 60px;
+       }
+
+    //   @media (max-width: 850px) { 
+    //       font-size: 60px;
+    //   }
       @media (max-width: 1024px) {
           font-size: 80px;
       }

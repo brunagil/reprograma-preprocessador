@@ -1,0 +1,148 @@
+
+/* -----------CONTACT--------- */
+.contact {
+    margin: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+@media (min-width: 520px) {
+    .contact {
+        margin: 20px 50px;
+    } 
+}
+
+@media (min-width: 740px) {
+    .contact {
+        margin: 20px 100px;
+    }
+}
+
+.contact__form {
+    padding: 10px 30px;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .contact__form {
+        width: initial;
+    }
+}
+
+
+.form__label {
+    display: block;
+    margin-top: 10px;
+}
+
+@media (min-width: 1024px) {
+    .form__name, .form__email {
+        display: inline-block;
+    }
+
+    .form__email {
+        margin-left: 20px;
+    }
+}
+
+.form__input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (min-width: 1024px) {
+    .form__input {
+        width: 500px;
+    }
+
+    .form__input_name, .form__input_email {
+        width: 240px;
+        display: inline-block;
+    }
+}
+
+.form__input_contact {
+    background-color: $cor-amarelo-secundario;
+    border: 1px solid $cor-amarelo-principal;
+}
+
+.form__textarea {
+    width: 100%;
+    height: 70px;
+    resize: none;
+    background-color: $cor-amarelo-secundario;
+    border: 1px solid $cor-amarelo-principal;
+    border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+    .form__textarea {
+        width: 500px;
+    }
+}
+
+.form__submit {
+    display: block;
+    width: 100%;
+    background-color: $cor-azul-secundaria;
+    color: $cor-branca;
+}
+
+@media (min-width: 1024px) {
+    .form__submit {
+        width: 500px;
+    }
+}
+
+/* ----------NEWSLETTER--------- */
+.newsletter {
+   padding: 20px; 
+
+   display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    background-color: $cor-amarelo-news;
+}
+
+@media (min-width: 520px) {
+    .newsletter {
+        padding: 20px 50px;
+    }
+}
+
+@media (min-width: 740px) {
+    .newsletter {
+        padding: 20px 100px;
+    }
+}
+
+.newsletter__form {
+    padding: 10px 30px;
+    width: 100%;
+}
+
+@media (min-width: 740px) {
+    .newsletter__form {
+        text-align: center;
+    }
+}
+
+.form__input_newsletter {
+    color: rgb(163, 163, 163);
+}
+
+.form__submit_newsletter {
+    background-color: #BE2116;
+    color: $cor-branca;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .form__submit_newsletter {
+        width: 200px;
+    }
+}

@@ -1,0 +1,38 @@
+
+/* -------------NAV------------ */
+.topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.colored-topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+
+    background-color: $cor-azul-principal;
+    border-bottom: 1px solid rgb($cor-azul-principal, 143);
+}
+
+.topbar__anchor {
+    margin: 0 25px;
+}
+
+.topbar__list {
+    display: none;
+}
+
+.topbar__menu-icon {
+    color: $cor-branca;
+    text-shadow: 0 0 5px black;
+}
